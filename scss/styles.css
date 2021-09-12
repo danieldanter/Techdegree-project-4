@@ -1,3 +1,5 @@
+/*$font-stack-primary: 'Raleway', sans-serif;
+$font-stack-secondary: 'Bree Serif', serif;*/
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
@@ -696,4 +698,6 @@ template {
 [hidden] {
   display: none;
 }
+
+/*@import 'component/index';*/
 /*# sourceMappingURL=styles.css.map */

@@ -3,12 +3,14 @@
 // ======================================
 
 
-// base
-@import 'base/index.scss';
-
-// component
-@import 'component/index';
-
-// component
+// utilities
 @import 'utilities/index';
+
+// base
+@import 'base/index';
+
+// component
+/*@import 'component/index';*/
+
+
 
