@@ -1,52 +1,6 @@
 /*$font-stack-primary: 'Raleway', sans-serif;
 $font-stack-secondary: 'Bree Serif', serif;*/
 /* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-* {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-.headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
-}
-
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
-
-/* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
 .container {
@@ -148,8 +102,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
 .nav-link:hover {
@@ -188,6 +142,78 @@ a {
 
 .warning {
   background-color: #fd7856;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+.form {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
 }
 
 /* ============================================= */
@@ -698,6 +724,4 @@ template {
 [hidden] {
   display: none;
 }
-
-/*@import 'component/index';*/
 /*# sourceMappingURL=styles.css.map */
